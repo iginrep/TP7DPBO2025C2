@@ -1,0 +1,39 @@
+/* Custom styles to complement Bootstrap */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(220, 53, 69, 0.1);
+}
+
+.liverpool-red {
+    background-color: #C8102E;
+    color: white;
+}
+
+.liverpool-btn {
+    background-color: #C8102E;
+    color: white;
+    border: none;
+}
+
+.liverpool-btn:hover {
+    background-color: #a30d25;
+    color: white;
+}
+
+/* Keep original table styles for compatibility */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #dee2e6;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
